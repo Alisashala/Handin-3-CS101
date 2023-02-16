@@ -9,20 +9,26 @@ public class Square implements Comparable<Square>{
         this.width = width;
     }
 
-    public double getWidth() {
-        return width;
-    }
-
-    public double getHeight() {
-        return height;
-    }
 
     public double getPerimeter () {
         return 2*(width + height);
     }
 
     @Override
-    public int compareTo(Square o) {
-        return 0;
+    public String toString() {
+        return "Square{" +
+                "height=" + height +
+                ", width=" + width +
+                '}';
+    }
+
+    @Override
+    public int compareTo(Square comparableSquare) {
+
+        if (this.getPerimeter() > comparableSquare.getPerimeter()) {
+            return 1;
+        } else {
+            return -1;
+        }
     }
 }
