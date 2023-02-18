@@ -12,8 +12,6 @@ public class Main {
         Square squareTwo = new Square(4.5, 7.8);
         Square squareThree = new Square(1.0, 4.7);
 
-        System.out.println(squareOne.compareTo(squareTwo));
-
         ArrayList<Square> newSquares = new ArrayList<>();
 
         newSquares.add(squareOne);
