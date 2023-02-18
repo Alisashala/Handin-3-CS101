@@ -4,6 +4,9 @@ import E.RedditPost;
 
 import java.util.ArrayList;
 
+//Write a class: RedditFrontPage
+//The RedditFrontPage has: An ArrayList of all RedditPosts
+
 public class RedditFrontPage {
     private ArrayList<RedditPost> posts;
 

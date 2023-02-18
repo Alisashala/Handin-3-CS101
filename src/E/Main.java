@@ -10,6 +10,5 @@ public class Main {
         System.out.println(post.getDownvotes());
         System.out.println(post.getUpvotes());
 
-
     }
 }

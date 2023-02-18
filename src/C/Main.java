@@ -3,6 +3,7 @@ package C;
 import java.util.ArrayList;
 
 // C: Create 5 articles, add them into an ArrayList and print them by overriding the .toString() method
+
 public class Main {
     public static void main(String[] args) {
 

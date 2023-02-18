@@ -1,6 +1,7 @@
 package B;
 
 import java.util.Scanner;
+
 // B: Write a method that returns if a user has input a valid CPR number.
 
 public class Main {
